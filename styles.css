@@ -1,0 +1,39 @@
+#forma {
+  position: center;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+input {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 0px 1% 0 0; 
+  display: inline-block;
+  background-color: #FCFCFC;
+  border: 1px solid black;
+  border-radius: 1px;
+  box-sizing: border-box;
+  font-family: 'Inkburro';
+  font-size: 14px;
+}
+
+footer {
+  position: relative;
+  color: #e9ece5;
+  font-size: 25px;
+  width: 400px;
+  text-align: center;
+  top: 200px;
+}
+
+#message {
+  width: 250px;
+  height: 40px;
+  text-align: justify;
+}
+
+#btn-send {
+  width: 60px;
+  height: 40px;
+  top: 20px;
+}
