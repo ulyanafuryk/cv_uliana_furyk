@@ -7,6 +7,14 @@ li {
   display: block;
 }
 
+#carousel {
+  position: absolute;
+  top: 45%;
+  z-index: -1;
+  height: 450px;
+  margin: 0;
+}
+
 #forma {
   position: center;
   text-align: center;
