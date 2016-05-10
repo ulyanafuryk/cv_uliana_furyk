@@ -1,28 +1,3 @@
-$(function () {
-	'use strict';
-	console.log("ready!");
-
-	$('#contact').submit(function (event) {
-		$.ajax({
-			url: "https://formspree.io/uljka@yahoo.com",
-			method: "POST",
-			data: {
-				name: firstname.value,
-				email: email.value,
-				message: msg.value
-			},
-			dataType: "json"
-		}).done(function () {
-			$("#firstname").val("");
-			$("#email").val("");
-			$("#msg").val("");
-			$('#form').html('<h1>Thank you!</h1>');
-		});
-		event.preventDefault();
-	});
-});
-
-
 function scrollToId(whereToScroll) {
     $('html, body').animate({
         scrollTop: $(whereToScroll).offset().top
