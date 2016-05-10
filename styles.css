@@ -7,10 +7,14 @@ li {
   display: block;
 }
 
+#download {
+  padding-top: 550px;
+}
+
 #carousel {
   position: absolute;
-  top: 300%;
-  left: 25%;
+  top: 370%;
+  left: 28%;
   z-index: -1;
   height: 200px;
   margin: 0;
