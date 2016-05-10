@@ -9,9 +9,10 @@ li {
 
 #carousel {
   position: absolute;
-  top: 45%;
+  top: 200%;
+  left: 22%;
   z-index: -1;
-  height: 450px;
+  height: 200px;
   margin: 0;
 }
 
