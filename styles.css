@@ -13,7 +13,7 @@ li {
 
 #carousel {
   position: absolute;
-  top: 370%;
+  top: 3300px;
   left: 28%;
   z-index: -1;
   height: 200px;
