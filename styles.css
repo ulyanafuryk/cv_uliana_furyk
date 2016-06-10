@@ -3,21 +3,9 @@
   padding: 0;
 }
 
-li {
-  display: block;
-}
 
 #download {
   padding-top: 550px;
-}
-
-#carousel {
-  position: absolute;
-  top: 3350px;
-  left: 550px;
-  z-index: -1;
-  height: 200px;
-  margin: 0;
 }
 
 #forma {
